@@ -1,0 +1,46 @@
+
+/* PC */
+@media only screen and (min-width: 64em) {
+    
+}
+
+/* common tablet and mobile <1024*/
+@media only screen and (max-width: 63.9375em) {
+   
+ }
+
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    /*  */
+    #slider .fa-leaf {
+        left: 6%;
+    }
+
+    /*  */
+    #text-images .text-img-one {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #text-images .text-img-one .img-one {
+        margin-left: 16px;
+
+    }
+    #text-images .text-img-one .text-one__field {
+        margin-top: 40px;
+    }
+    .text-img-one .text-one__field input {
+        width: 315px;
+    }
+    .text-img-one .text-one__field button {
+        width: 130px;
+    }
+      
+
+}
+
+
+/* Mobile: width < 740px.... 1em = 16px */
+@media only screen and (max-width: 46.1875em) {
+ 
+}

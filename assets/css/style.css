@@ -1,0 +1,533 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;  /*di chuyển đến nơi mình cần ấn bằng cách cuộn */
+    background-color: #333;
+}
+
+
+#main {
+    left: 0px;
+    right: 0px;
+    height: 2664px;
+    background-color: #FFFFFF;
+}
+
+/*  */
+#header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 88px;
+    background-color: #F3F6FA;
+
+    position: relative;
+    z-index: 1;
+}
+
+#header .logo img{
+    width: 70px;
+    height: 43px;
+}
+
+#header .links {
+    width: 223px;
+}
+
+#header .links ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 42px;
+
+    color: #373F41;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#header a {
+    color: #373F41;
+    text-decoration: none;
+}
+
+#header .buttons form {
+    width: 169px;
+}
+
+#header .buttons .btn-log {
+    width: 43px;
+    background-color: #F3F6FA;
+    color: #3C64B1;
+    border: none;
+    height:42px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+}
+
+#header .buttons .btn-start {
+    width: 106px;
+    margin-left: 20px;
+    background-color: #3C64B1;
+    border:0px solid #3C64B1;
+    color: #FFFFFF;
+    height:42px;
+    letter-spacing: 0.3px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    cursor: pointer;
+}
+
+/*  */
+#slider {
+    position: relative;
+    width: 100%;
+    height: 560px;
+    background: url(../imgs/bg.png);
+}
+
+#slider .fa-leaf {
+    width: 24px;
+    height: 24px;
+    font-size: 21px;
+    position: absolute;
+    left: 11%;
+    top: -9px;
+}
+
+#slider .slider-content {
+    position: absolute;
+    width: 100%;
+    height: 286px;
+    text-align: center;
+    margin: 137px auto 137px;
+}
+
+
+#slider .slider-content .text-content {
+    width: 730px;
+    height: 188px;
+    margin: 0px auto;
+}
+
+#slider .text-content > h2 {
+    height: 112px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #373F41;
+    margin-bottom: 32px;
+}
+
+#slider .text-content > p {
+    height: 44px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17.5px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #737B7D;
+    margin-bottom: 56px;
+}
+
+#slider .btn-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 275px;
+    height: 42px;
+    margin: 56px auto 0px ;
+}
+
+#slider .btn-content .btn-free {
+    background-color: #3C64B1;
+    color: #FFFFFF;
+    border: 1px solid #3C64B1;;
+    width: 136px;
+    padding: 12px 18px;
+    align-items: center;
+    margin-right: 12px;
+
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+}
+
+#slider .btn-content .btn-learn {
+    width: 115px;
+    height: 42px;
+    padding: 12px 18px;
+    align-items: center;
+    border: 1px solid #3C64B1;
+    color: #3C64B1;
+    margin-left: 12px;
+
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+}
+
+
+/*  */
+#newsletter {
+    position: relative;
+    width: 100%;
+    margin-top: 60px;
+    height: 336px;
+}
+
+#newsletter .newsletter-title {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 100%;
+    height: 86px;
+}
+
+#newsletter .newsletter-title .title-text {
+    height: 40px;
+    top: 0px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.1px;
+}
+
+#newsletter .newsletter-title .title-description {
+    height: 22px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    color: #737B7D;
+    margin-top: 24px;
+}
+
+#newsletter .rows {
+    margin-top: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#newsletter .newsletter-info {
+    width: 350px;
+    height: 204px;
+    display: flex;
+    flex-direction: column;
+}
+
+#newsletter .newsletter-info i {
+    width: 40px;
+    height: 40px;
+    font-size: 35px;
+    margin: 0px auto;
+}
+
+#newsletter .newsletter-info .info-text {
+    height: 24px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    margin-top: 24px;
+}
+
+#newsletter .newsletter-info .info-description {
+    height: 40px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #373F41;
+    margin-top: 12px;
+}
+
+#newsletter .newsletter-info > span {
+    height: 18px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #3C64B1;
+    margin: 34px auto 12px;
+}
+
+#newsletter .rows .shadow {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/*  */
+#text-images {
+    position: relative;
+    height: 1138px;
+}
+
+#text-images .text-img-one {
+    height: 538px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#text-images .text-img-one .img-one {
+    background: url(../imgs/image1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 545px;
+    height: 440px;
+    margin-right: 15px;
+}
+
+#text-images .text-img-one .text-one {
+    width: 540px;
+    height: 364px;
+    margin-left: 15px;
+}
+
+#text-images .text-img-one .text-one__title {
+    height: 120px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.1px;
+    color: #373F41;
+}
+
+#text-images .text-img-one .text-one__description {
+    height: 66px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    color: #737B7D;
+    margin-top: 32px;
+}
+
+#text-images .text-img-one .text-one__field {
+    margin-top: 56px;
+}
+
+.text-img-one .text-one__field form {
+    height: 42px;
+}
+
+.text-img-one .text-one__field input {
+    width: 377px;
+    background: #F4F5F4;
+    padding: 12px 18px;
+    border: none;
+
+    font-family: Mulish;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737B7D;
+}
+
+.text-img-one .text-one__field button {
+    width: 139px;
+    margin-left: 24px;
+    padding: 12px 18px;
+    background: #3C64B1;
+    
+    color: #FFFFFF;
+    font-family: Mulish;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    border: none;
+    cursor: pointer;
+}
+
+.text-img-one .text-one__field .field-description {
+    height: 32px;
+    font-family: Mulish;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #737B7D;
+    margin-top: 16px
+}
+
+
+#text-images .text-img-two {
+    height: 600px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#text-images .text-img-two .img-two {
+    background: url(../imgs/image2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 540px;
+    height: 440px;
+    margin-left: 15px;
+}
+
+
+#text-images .text-img-two .text-two {
+    width: 540px;
+    height: 290px;
+    margin-right: 15px;
+}
+
+#text-images .text-img-two .text-two__title {
+    height: 120px;
+    font-family: Mulish;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.1px;
+    color: #373F41;
+}
+
+#text-images .text-img-two .text-two__descriptions {
+    margin-top: 56px;
+    height: 114px;
+    display: flex;
+    flex-direction:row;
+}
+
+.text-img-two .text-two__descriptions .text-two-1 {
+    width: 255px;
+    margin-right: 15px;
+}
+
+.text-img-two .text-two__descriptions .text-two-2 {
+    width: 255px;
+    margin-left: 15px;
+}
+
+.text-img-two .text-two__descriptions .text__description {
+    height: 66px;
+    font-family: Mulish;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    color: #737B7D;
+    margin-top: 16px;
+}
+
+#testimonial-rows {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 368px;
+}
+
+#testimonial-rows .testimonial {
+    width: 255px;
+    height:368px;
+    margin: 0px 15px 0px;
+}
+
+#testimonial-rows .testimonial .testimonial-img-3,
+#testimonial-rows .testimonial .testimonial-img-4,
+#testimonial-rows .testimonial .testimonial-img-5,
+#testimonial-rows .testimonial .testimonial-img-6 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 255px;
+    height: 260px;
+}
+
+#testimonial-rows .testimonial .testimonial-img-3 {
+    background: url(../imgs/image3.png);
+}
+
+#testimonial-rows .testimonial .testimonial-img-4 {
+    background: url(../imgs/image4.png);
+}
+
+#testimonial-rows .testimonial .testimonial-img-5 {
+    background: url(../imgs/image5.png);
+}
+
+#testimonial-rows .testimonial .testimonial-img-6 {
+    background: url(../imgs/image6.png);
+}
+
+#testimonial-rows .testimonial .testimonial-title {
+    height: 24px;
+    font-family: Mulish;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #373F41;
+    margin-top: 32px;
+}
+
+#testimonial-rows .testimonial .testimonial-description {
+    height: 40px;
+    font-family: Mulish;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #373F41;
+    margin-top: 12px;
+}
